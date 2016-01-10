@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Create a new menu_main.xml in res->menu folder -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--First create a group then its items -->
+    <group android:id="@+id/main_group"
+           android:checkableBehavior="single">
+        <item android:id="@+id/red"
+              android:orderInCategory="1"
+              android:title="@string/red_name"
+              app:showAsAction="never"
+            />
+        <item android:id="@+id/yellow"
+            android:orderInCategory="2"
+            android:title="@string/yellow_name"
+            app:showAsAction="never"
+            />
+        <item android:id="@+id/green"
+            android:orderInCategory="3"
+            android:title="@string/green_name"
+            app:showAsAction="never"
+            />
+        <item android:id="@+id/blue"
+            android:orderInCategory="4"
+            android:title="@string/blue_name"
+            app:showAsAction="never"
+            />
+    </group>
+
+</menu>
